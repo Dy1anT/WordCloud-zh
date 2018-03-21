@@ -6,7 +6,7 @@ from scipy.misc import imread
 from os import path
 import matplotlib.pyplot as plt
 
-comment_text = open("word.txt",'r').read() #txt文件
+comment_text = open("text.txt",'r').read() #txt文件
 cut_text = ' '.join(jieba.cut(comment_text))
 color_mask = imread("pic.jpg") # 背景图片
 cloud = WordCloud(
