@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from wordcloud import WordCloud
+from wordcloud import WordCloud, ImageColorGenerator
 import jieba
 from scipy.misc import imread
 import matplotlib.pyplot as plt
@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 def main():
     comment_text = open("text.txt", 'r').read()  # txt文本
     cut_text = ' '.join(jieba.cut(comment_text))
-    color_mask = imread("picture.jpg")  # 背景图片
+    color_mask = imread("background.jpg")  # 背景图片
     cloud = WordCloud(
         font_path = "msyh.ttf",  # 字体
         background_color = 'white',  # 背景色
