@@ -1,2 +1,2 @@
-# WordCloud
-中文词云
+# WordCloud-Chinese
+中文词云脚本
