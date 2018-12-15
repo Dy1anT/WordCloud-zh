@@ -1,4 +1,4 @@
-# WordCloud-Chinese
+# WordCloud-zh
 中文词云脚本
 
 ## 使用方法
